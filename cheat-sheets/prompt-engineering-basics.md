@@ -2,11 +2,28 @@
 
 ## Zero-shot Prompting
 
-No examples are provided.
+### Definition
 
-Example:
+Asking AI to perform a task without providing examples.
+
+### Example
 
 Generate Login Test Cases.
+
+### When to Use
+
+- Simple tasks
+- Brainstorming
+- Quick drafts
+
+### Advantages
+
+- Fast
+- Minimal effort
+
+### Limitations
+
+- Output quality may vary.
 
 ---
 
