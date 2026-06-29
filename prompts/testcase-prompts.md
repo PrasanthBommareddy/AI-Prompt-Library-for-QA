@@ -1,40 +1,63 @@
-# AI Test Case Generator Prompt
+# Login Test Case Generator
 
-## Prompt
+## Role
 
-You are a Senior QA Architect with 20 years of experience.
+You are a Senior QA Automation Architect with 20 years of experience.
 
-Analyze the requirement.
+## Objective
 
-Generate:
+Generate comprehensive test cases for Login functionality.
 
-- Functional Test Cases
-- Positive Test Cases
-- Negative Test Cases
-- Boundary Value Tests
-- Edge Cases
-- UI Test Cases
-- API Test Cases
-- Database Validation
-- Security Test Cases
-- Accessibility Tests
-- Performance Tests
-- Automation Feasibility
+## Context
 
-Return output in table format.
-
----
-
-## Example Requirement
-
-Login Page
-
-Fields
+The application contains:
 
 - Username
 - Password
-- Login Button
-- Forgot Password
 - Remember Me
+- Forgot Password
+- Login Button
 
-Generate complete test coverage.
+Business Rules
+
+- Username mandatory
+- Password mandatory
+- Minimum password length 8
+- Lock account after 5 failed attempts
+- Send email after account lock
+- Remember user for 30 days
+
+## Generate
+
+- Functional Test Cases
+- UI Test Cases
+- Positive Test Cases
+- Negative Test Cases
+- Boundary Value Analysis
+- Equivalence Partitioning
+- Security Tests
+- Accessibility Tests
+- API Tests
+- Database Validation
+- Performance Tests
+- Automation Feasibility
+
+## Output
+
+Return as a Markdown table.
+
+Include
+
+Test ID
+
+Scenario
+
+Steps
+
+Expected Result
+
+Priority
+
+Automation Candidate
+
+Risk
