@@ -1,56 +1,34 @@
-# Prompt Engineering Basics
-
 ## Zero-shot Prompting
 
 ### Definition
 
-Asking AI to perform a task without providing examples.
+Asking an AI model to perform a task without providing any examples.
 
 ### Example
 
-Generate Login Test Cases.
+Generate login test cases.
 
 ### When to Use
 
-- Simple tasks
+- Quick tasks
 - Brainstorming
-- Quick drafts
+- Initial drafts
 
 ### Advantages
 
 - Fast
-- Minimal effort
+- Easy to write
+- Minimal context required
 
 ### Limitations
 
-- Output quality may vary.
+- Output quality can vary
+- May miss business-specific requirements
 
----
+### QA Example
 
-## Few-shot Prompting
+Generate test cases for a login page using only the feature description.
 
-Provide one or more examples before asking AI to generate new content.
+### Real-world Example
 
----
-
-## Role Prompting
-
-Act as a Senior QA Architect.
-
----
-
-## Chain of Thought
-
-Reason step by step.
-
----
-
-## Context Prompting
-
-Provide business context before asking AI.
-
----
-
-## Structured Prompting
-
-Organize prompts into Role, Context, Objective, Constraints, and Output.
+Generate Selenium interview questions.
