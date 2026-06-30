@@ -148,3 +148,12 @@ Highlight:
 ---
 
 Think step-by-step before generating the final output.
+
+---
+
+# Version History
+
+| Version | Changes |
+|----------|---------|
+| v1.0 | Basic Login Test Case Generator |
+| v2.0 | Added Security, API, Accessibility, Performance, Database, and Automation sections |
