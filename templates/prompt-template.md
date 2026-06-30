@@ -2,25 +2,30 @@
 
 ## Role
 
-Example:
+**Who should the AI act as while solving the task?**
 
+**Example:**
 You are a Senior QA Automation Architect.
 
 ---
 
 ## Objective
 
-What should AI accomplish?
+**Clearly define what you want the AI to accomplish.**
 
 ---
 
 ## Context
 
-Provide complete business requirements.
+**Provide all relevant business requirements and background information.**
 
 ---
 
 ## Constraints
+
+**Specify any technical, business, or formatting requirements the AI must follow.**
+
+Examples:
 
 - Programming Language
 - Framework
@@ -30,6 +35,8 @@ Provide complete business requirements.
 ---
 
 ## Expected Output
+
+**Define exactly how you want the AI response to be structured.**
 
 Examples:
 
@@ -44,10 +51,10 @@ Examples:
 
 ## Example Input
 
-Paste your requirement here.
+**Provide a sample requirement or input for the AI to process.**
 
 ---
 
 ## Example Output
 
-Expected AI response.
+**Show a sample of the expected AI response format.**
