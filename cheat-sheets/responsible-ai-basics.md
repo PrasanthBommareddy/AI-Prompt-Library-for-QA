@@ -6,18 +6,22 @@ Responsible AI is the practice of designing, developing, deploying, and using AI
 
 ---
 
-## Why QA Engineers Should Care
+# Why It Matters for QA
 
-- Validate AI-generated outputs
+QA Engineers are responsible for validating AI-generated outputs and ensuring AI behaves reliably.
+
+Responsibilities include:
+
+- Validate AI responses
 - Detect hallucinations
-- Identify bias
-- Protect sensitive data
-- Verify AI reliability
-- Ensure compliance
+- Verify business rules
+- Test edge cases
+- Check bias
+- Protect user data
 
 ---
 
-## Google's Responsible AI Principles
+# Google's Responsible AI Principles
 
 - Fairness
 - Privacy & Security
@@ -27,16 +31,41 @@ Responsible AI is the practice of designing, developing, deploying, and using AI
 
 ---
 
-## QA Checklist
+# QA Validation Checklist
 
-✅ Verify AI responses
+- Verify AI output accuracy
+- Validate business requirements
+- Test negative scenarios
+- Check prompt quality
+- Detect hallucinations
+- Review bias
+- Protect sensitive information
 
-✅ Check hallucinations
+---
 
-✅ Test with edge cases
+# Real QA Example
 
-✅ Validate business rules
+Prompt:
+Generate Login Test Cases.
 
-✅ Protect sensitive data
+QA Validation:
 
-✅ Review prompt quality
+✅ Functional coverage
+
+✅ Boundary values
+
+✅ Security scenarios
+
+✅ Accessibility
+
+✅ Performance
+
+❌ Hallucinated business rules
+
+---
+
+# Key Takeaways
+
+Responsible AI is not only for AI Engineers.
+
+QA Engineers play a critical role in ensuring AI systems produce trustworthy, accurate, and safe outputs.
